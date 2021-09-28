@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 lg:ml-80">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -13,10 +13,19 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Home') }}
                     </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('memo') }}" :active="request()->routeIs('memo')">
                         {{ __('Memo') }}
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('memo') }}" :active="request()->routeIs('Reading')">
+                        {{ __('Reading') }}
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('memo') }}" :active="request()->routeIs('Writing')">
+                        {{ __('Writing') }}
+                    </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('memo') }}" :active="request()->routeIs('Writing')">
+                        {{ __('Comunity') }}
                     </x-jet-nav-link>
                 </div>
             </div>
