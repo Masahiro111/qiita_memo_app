@@ -14,6 +14,12 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+        <!-- Prosemirror CSS -->
+        {{-- <link rel=stylesheet href="https://prosemirror.net/css/editor.css"> --}}
+
+        <link rel="stylesheet" href="./css/gfm.css">
+
+
         @livewireStyles
 
         <!-- Scripts -->
