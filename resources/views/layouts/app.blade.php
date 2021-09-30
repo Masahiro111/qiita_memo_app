@@ -17,8 +17,11 @@
         <!-- Prosemirror CSS -->
         {{-- <link rel=stylesheet href="https://prosemirror.net/css/editor.css"> --}}
 
+        <!-- EditorCustom -->
         <link rel="stylesheet" href="./css/gfm.css">
 
+        <!-- EditorCustom -->
+        <link rel="stylesheet" href="./css/custom.css">
 
         @livewireStyles
 
