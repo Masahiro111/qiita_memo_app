@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="./css/gfm.css">
 
         <!-- EditorCustom -->
-        <link rel="stylesheet" href="./css/custom.css">
+        <link rel="stylesheet" href="./css/custom2.css">
 
         @livewireStyles
 
